@@ -1,6 +1,6 @@
 
  
-let mensagem = prompt("Digite sua mensagem");
+//let mensagem = prompt("Digite sua mensagem");
 
 function criptografar() {
     let codificador = ['ai', 'enter', 'imes', 'ober', 'ufat'];
