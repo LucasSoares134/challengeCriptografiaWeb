@@ -6,42 +6,34 @@
     <title>Criptografia Web</title>
 <link rel="stylesheet"   type="text/css" href="style.css"/>
 </head>
-<header id="__cabecalho-principal">
-
-</header>
 
 
 <body>
-   
-    <main><script src="app.js"></script>
-
-        <figure></figure>
+    <header class="__cabecalho">
+    </header>
+    
+    <main class="__estrutura">
+        <script src="app.js"></script>
+       <section class="__conteudo-principal">
     <fieldset>
-        <p><label for="cTexto"></label><textarea type="text" name="tTexto" id="cTexto" cols="105" rows="35" placeholder="Digite sua mensagem"></textarea>
+        <p><label for="cTexto"></label><textarea id="__digitar-mensagem" type="text" name="tTexto" id="cTexto" cols="100" rows="40" placeholder="Digite sua mensagem"></textarea>
         </p>
         <button onclick="criptografar()" class="button">Criptografar</button>
         <button onclick="decriptografar()" class="button">Descriptografar</button>
-
-
-
-
-
-
     </fieldset>
+</section>
 
-       
+
+
+        <aside class="__conteudo-secundario">
     
-        <aside id="__lateral-localdireito">
-    
-            <figure id="tux"><img src="/imagens/Tux.jfif" alt="imagem do pet Tux"></figure>
-        <h2>
+            <figure id="__imagem-tux"><img src="/imagens/Tux.jfif" alt="imagem do pet Tux"></figure>
+        <h2 id="__mensagem">
         </h2>    
         
         </aside>
     
     
-        
-    </script>
 
  
 </main>
@@ -49,11 +41,13 @@
 
 
 
-<footer id="__rodape-final">
+<footer class="__rodape">
 <h2>Desenvolvido por: Lucas Soares</h2>
+<nav>
 <a href="">Linkedin</a>
 <a href="">GitHub</a>
 <a href="">Portifolio</a>
+</nav>
 </footer>
 </body>
 </html>
