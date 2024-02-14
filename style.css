@@ -36,7 +36,8 @@ font-family:'Inter', sans-serif;
 font-size: 16px;
 margin: 0% 0% 0% 50%;
 display: flex;
-gap: 10%;
+gap:10%;
+
     
 }
 
@@ -46,7 +47,8 @@ gap: 10%;
     padding: 2%;
     width: 50%;
     height: 50%;
-  
+    border-radius: 18px;
+
 
 }
 #__button-segundo{
@@ -54,5 +56,6 @@ gap: 10%;
     padding: 2%;
     width: 50%;
     height: 50%;
+    border-radius: 18px;
 
 }
