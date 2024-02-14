@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Criptografia Web</title>
 <link rel="stylesheet"   type="text/css" href="style.css"/>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+</style>
 </head>
 
 
@@ -17,9 +20,10 @@
        <section class="__conteudo-principal">
     <fieldset>
         <p><label for="cTexto"></label><textarea id="__digitar-mensagem" type="text" name="tTexto" id="cTexto" cols="100" rows="40" placeholder="Digite sua mensagem"></textarea>
-        </p>
-        <button onclick="criptografar()" class="button">Criptografar</button>
-        <button onclick="decriptografar()" class="button">Descriptografar</button>
+        </p><div class="__button">
+        <button onclick="criptografar()" id="__button-primeiro">Criptografar</button>
+        <button onclick="decriptografar()" id="__button-segundo">Descriptografar</button>
+    </div>
     </fieldset>
 </section>
 
@@ -28,9 +32,11 @@
         <aside class="__conteudo-secundario">
     
             <figure id="__imagem-tux"><img src="/imagens/Tux.jfif" alt="imagem do pet Tux"></figure>
-        <h2 id="__mensagem">
-        </h2>    
-        
+        <article id="__conteudo-texto">
+            <h2 id="__mensagem1"><b>Nenhuma mensagem encontrada</b>
+        </h2>
+        <h3 id="__mensagem2">Digite um texto que você deseja criptografar ou descriptografar.</h3>    
+    </article>
         </aside>
     
     
