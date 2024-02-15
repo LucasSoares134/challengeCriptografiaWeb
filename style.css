@@ -20,6 +20,14 @@ main{
     gap: 15%;
         
 }
+.__cabecalho{
+    background-color: aquamarine;
+    text-align: center;
+    margin: 0.8% 0% 0% 5%;
+    color:blue;
+    border-radius: 18px;
+    width: 90%;
+}
 #__digitar-mensagem{
     margin: 15% 0% 5% 15%;
     color:#0A3871;
@@ -32,26 +40,28 @@ main{
 }
 ::placeholder{
     Color:#0A3871;
- 
 
 }
 #__mensagem1{
-    color:#343A40;
+    color: black;
+    text-align: center;   
+ 
 }
 #__mensagem2{
     color: #495057;
+    text-align: center;    
 }
 .__painel{
     background-color: #FFFFFF;
-    margin: 5% 15% 5% 0%;
+    margin: 3% 15% 5% 0%;
     border-radius: 18px;
  }
 #__imagem-tux{
     background-color: white;
-    margin-top: 20%;
+    margin-top: 5%;
     position: relative;
-border: #0A3871;
-border-width: 100px;
+    border: #0A3871;
+    border-width: 100px;
 }
 
 .__button{
@@ -86,5 +96,7 @@ gap:10%;
 }
 .__rodape{
     background-color: aqua;
-    
-}
+    display: flex;
+    gap: 10%;
+    text-align: center;
+    }
