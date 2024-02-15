@@ -21,7 +21,7 @@ main{
         
 }
 .__cabecalho{
-    background-color: aquamarine;
+    background-color: rgb(29, 214, 4);
     text-align: center;
     margin: 0.8% 0% 0% 5%;
     color:blue;
@@ -95,8 +95,9 @@ gap:10%;
 
 }
 .__rodape{
-    background-color: aqua;
-    display: flex;
+    background-color:#D8DFE8;
+    display: block;
     gap: 10%;
     text-align: center;
-    }
+width: auto;    
+}
