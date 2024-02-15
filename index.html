@@ -19,23 +19,25 @@
         <script src="app.js"></script>
        <section class="__conteudo-principal">
     <fieldset>
-        <p><label for="cTexto"></label><textarea id="__digitar-mensagem" type="text" name="tTexto" id="cTexto" cols="100" rows="40" placeholder="Digite sua mensagem"></textarea>
+        <p><label for="cTexto"></label><textarea id="__digitar-mensagem" type="text" name="tTexto" id="cTexto" cols="100" rows="15" placeholder="Digite sua mensagem"></textarea>
         </p><div class="__button">
         <button onclick="criptografar()" id="__button-primeiro">Criptografar</button>
         <button onclick="decriptografar()" id="__button-segundo">Descriptografar</button>
-    </div>
+      </div>
+     
     </fieldset>
 </section>
 
 
 
-        <aside class="__conteudo-secundario">
+        <aside class="__painel">
     
-            <figure id="__imagem-tux"><img src="/imagens/Tux.jfif" alt="imagem do pet Tux"></figure>
+            <div class="__local-mensagem"><img id="__imagem-tux" src="/imagens/Tux.jfif" alt="imagem do pet Tux">
         <article id="__conteudo-texto">
             <h2 id="__mensagem1"><b>Nenhuma mensagem encontrada</b>
         </h2>
         <h3 id="__mensagem2">Digite um texto que você deseja criptografar ou descriptografar.</h3>    
+    </div>
     </article>
         </aside>
     
@@ -57,3 +59,4 @@
 </footer>
 </body>
 </html>
+
