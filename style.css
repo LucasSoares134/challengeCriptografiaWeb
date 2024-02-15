@@ -12,7 +12,7 @@
 body{
     height:100vh;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: azure;
+    background-color: #E5E5E5;
 }
 main{
    
@@ -22,15 +22,31 @@ main{
 }
 #__digitar-mensagem{
     margin: 20% 0% 0% 20%;
+    color:#0A3871;
+    background-color: #E5E5E5;
+    border: none; /* Remove a borda */
+    resize: none; /* Impede o redimensionamento */
+    outline: none;
+   
+}
+::placeholder{
+    Color:#0A3871;
+ 
+
 }
 #__mensagem1{
-    color: rgb(5, 0, 10);
+    color:#343A40;
 }
 #__mensagem2{
-    color: rgb(127, 255, 144);
+    color: #495057;
 }
 
+#__imagem-tux{
+    background-color: white;
+    margin-top: 20%;
+    position: relative;
 
+}
 .__button{
 font-family:'Inter', sans-serif;
 font-size: 16px;
@@ -58,4 +74,7 @@ gap:10%;
     height: 50%;
     border-radius: 18px;
 
+}
+.__rodape{
+    background-color: aqua;
 }
