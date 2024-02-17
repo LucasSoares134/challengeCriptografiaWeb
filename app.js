@@ -1,47 +1,43 @@
-//CRIAR UMA VARIAVEL CHAMADA DE MENSAGEMDIGITADA
-//function painel(){
+let imagemAtual = ""; // Defina a variável imagemAtual antes de utilizá-la
 
-        //evento 1 -inicial
-//evento 2 -digitando
-//evento 3 -bottonSelecionado
-//}
-
-//fica no html
-function inicial(tag,texto){
+function digitando() {
     document.getElementById("__imagem-tux").src = imagemAtual;
-    imagemAtual = "imagens/Tux.jfif";
-    let campo = document.querySelector(tag);
-    campo.innerHTML = texto;
-inicial('h2','Nenhuma mensagem encontrada')
-inicial('h3','Digite um texto que você deseja criptografar ou descriptografar.')
+    imagemAtual = "imagens/processando.jfif";
+    document.getElementById("__mensagem1").innerHTML = 'Texto sendo processado...';
+    document.getElementById("__mensagem2").innerHTML = 'Aguarde!';
 }
 
-//2 onclick(ao clicar para escrever)
-function digitando(){
-    document.getElementById("__imagem-tux").src = imagemAtual;
-    imagemAtual ="imagens/processando.jfif";
-    let campo = document.querySelector(tag);
-    campo.innerHTML = texto;
-    digitando('h2','texto sendo processado...')
-    digitando('h3', 'Aguarde!')
-}
-
-//3(ao selecionar um dos botões)
-function criptografar(){
+function criptografar() {
     document.getElementById("__imagem-tux").src = imagemAtual;
     imagemAtual = "imagens/joinha.jfif";
-    let campo = document.querySelector(tag);
-    campo.innerHTML = texto;
-    criptografar('h2',mensagemDigitada)
+    let mensagemDigitada = document.getElementById('__digitar-mensagem').value;
+    digitando();
+    //-------------------------------------------------------------------------
+    let codificador = { 'a': 'ai', 'e': 'enter', 'i': 'imes', 'o': 'ober', 'u': 'ufat' };
+    mensagemDigitada = mensagemDigitada.replace(/[aeiou]/g, function(criptografia) {
+     return codificador[criptografia] || criptografia;
+    });
+//---------------------------------------------------------------------------
+
+    document.getElementById("__mensagem1").innerHTML = mensagemDigitada;
+    document.getElementById("__mensagem2").innerHTML = '';
+    //-------------------------------------------------------------------------
 }
-function descriptografar(){
-        document.getElementById("__imagem-tux").src = imagemAtual;
-        imagemAtual = "imagens/joinha.jfif";
-        let campo = document.querySelector(tag);
-        campo.innerHTML = texto;
-        descriptografar('h3','mensagemDigitada')
-    }
-//possiveis eventos:
-//onmousemove =mudaImagem(inicial) onmouseout=mudaImagem(digitando) onclick=mudaImagem(bottonSelecionado)
 
+function descriptografar() {
+    document.getElementById("__imagem-tux").src = imagemAtual;
+    imagemAtual = "imagens/joinha.jfif";
+    let mensagemDigitada = document.getElementById('__digitar-mensagem').value;
+    digitando();
+     //-------------------------------------------------------------------------
 
+     let decodificador = { 'ai': 'a', 'enter': 'e', 'imes': 'i', 'ober': 'o', 'ufat': 'u' };
+     mensagemDigitada = mensagemDigitada.replace(/ai|enter|imes|ober|ufat/g, function(criptografia) {
+         return decodificador[criptografia] || criptografia;
+
+        });
+     //---------------------------------------------------------------------------
+    document.getElementById("__mensagem1").innerHTML = mensagemDigitada;
+    document.getElementById("__mensagem2").innerHTML = '';
+    //-------------------------------------------------------------------------
+}
