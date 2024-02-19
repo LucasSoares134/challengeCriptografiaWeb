@@ -24,7 +24,7 @@ main{
 .__cabecalho{
     background-color:#D8DFE8;
     text-align: center;
-    color:#36292C;;
+    color:#36292C;
     width: 100%;
     text-align: center;
     
@@ -126,5 +126,9 @@ gap:10%;
     display: block;
     gap: 10%;
     text-align: center;
-width: auto;    
+    width: auto;    
+}
+#__rodape-texto{
+    color:#0A3871;
+    font-family: Arial, Helvetica, sans-serif;
 }
