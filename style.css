@@ -13,34 +13,34 @@
 body{
     height:100vh;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #E5E5E5;
+    background-color: #B4B4B8;
 }
 main{
    
     display: flex;
-    gap: 15%;
+    gap: 10%;
         
 }
 .__cabecalho{
-    background-color: rgb(29, 214, 4);
+    background-color:#D8DFE8;
     text-align: center;
-    margin: 0.8% 0% 0% 5%;
-    color:blue;
-    border-radius: 18px;
-    width: 90%;
+    color:#36292C;;
+    width: 100%;
+    text-align: center;
+    
 }
 #__digitar-mensagem{
-    margin: 15% 0% 5% 15%;
+    margin: 5% 0% 5% 5%;
     color:#0A3871;
-    background-color: #E5E5E5;
+    background-color:  #B4B4B8;
     border: none; /* Remove a borda */
     resize: none; /* Impede o redimensionamento */
     outline: none;
-    
-   
+    font-size: 15px;
 }
 ::placeholder{
     Color:#0A3871;
+    font-size: 25px;
 
 }
 #__mensagem1{
@@ -53,16 +53,22 @@ main{
     text-align: center;    
 }
 .__painel{
-    background-color: #FFFFFF;
+    background-color: #D8DFE8;
     margin: 3% 15% 5% 0%;
     border-radius: 18px;
  }
 #__imagem-tux{
-    background-color: white;
-    margin-top: 5%;
+    background-color: #D8DFE8;
+    margin-top: 0%;
     position: relative;
-    border: #0A3871;
+    border:#D8DFE8;
     border-width: 100px;
+    border-radius: 18px;
+    
+}
+#__aviso{
+    border: none;
+    
 }
 #__button-copy{
     font-family:'Inter', sans-serif;
