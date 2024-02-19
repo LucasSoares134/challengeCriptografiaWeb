@@ -41,3 +41,5 @@ function descriptografar() {
     document.getElementById("__mensagem2").innerHTML = '';
     //-------------------------------------------------------------------------
 }
+
+//criar a função de copiar

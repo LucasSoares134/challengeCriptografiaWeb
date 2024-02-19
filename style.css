@@ -64,6 +64,20 @@ main{
     border: #0A3871;
     border-width: 100px;
 }
+#__button-copy{
+    font-family:'Inter', sans-serif;
+    font-size: 16px;
+    align-items: center;
+    background-color: lawngreen;
+    color: black;
+    padding: 2%;
+    width: 15%;
+    height: 7%;
+    border-radius: 18px;
+    position: relative;
+    margin:0% 0% 0% 40% ;
+ 
+}
 
 .__button{
 font-family:'Inter', sans-serif;
