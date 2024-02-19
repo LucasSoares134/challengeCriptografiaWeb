@@ -67,9 +67,14 @@ main{
     
 }
 #__aviso{
-
-
-    
+    margin: 0% 0% 0% 15%;
+position: relative;
+display: flex;
+gap: 1%;
+    }
+#__aviso-imagem{
+    margin: 0% 0% 0% 10%;
+    width: 3%;
 }
 #__button-copy{
     font-family:'Inter', sans-serif;
@@ -89,7 +94,7 @@ main{
 .__button{
 font-family:'Inter', sans-serif;
 font-size: 16px;
-margin: 15% 0% 5% 15%;
+margin: 2% 0% 5% 15%;
 display: flex;
 gap:10%;
 
