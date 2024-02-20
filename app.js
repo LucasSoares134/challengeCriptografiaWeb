@@ -23,7 +23,6 @@ function criptografar() {
     document.getElementById("__mensagem2").innerHTML = '';
     //-------------------------------------------------------------------------
 }
-
 function descriptografar() {
     document.getElementById("__imagem-tux").src = imagemAtual;
     imagemAtual = "imagens/among us2.jpg";
@@ -42,4 +41,11 @@ function descriptografar() {
     //-------------------------------------------------------------------------
 }
 
-//criar a função de copiar
+function copiarMensagem() {
+    var mensagemCopiar = document.getElementById("__mensagem1").innerText;
+
+    // Utilizando navigator.clipboard.writeText() para copiar o texto
+    navigator.clipboard.writeText(mensagemCopiar)
+       
+ };
+

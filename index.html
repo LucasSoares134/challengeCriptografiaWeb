@@ -8,7 +8,7 @@
 </head>
 <body>
     <header class="__cabecalho">
-        <h1>Bem-vindo ao sistema de criptografia!</h1>
+        <h1 id="__boas-vindas">Bem-vindo ao sistema de criptografia!</h1>
     </header>
     
     <main class="__estrutura">
@@ -16,10 +16,13 @@
         <section class="__conteudo-principal">
                     <textarea id="__digitar-mensagem"  onkeypress="digitando()" name="tTexto" id="cTexto" cols="100" rows="20" placeholder="Digite sua mensagem"></textarea>
                 <p id="__aviso"><img id="__aviso-imagem" src="/imagens/atention.png" alt="imagem de atenção">Criptografia irá funcionar, apenas letras minúsculas e sem acento.</p>
+                <nav><a href="index.html"><img id="__home-imagem" src="/imagens/home.jfif" alt="home"></a></nav>
                 <div class="__button">
                     <button onclick="criptografar()" id="__button-primeiro">Criptografar</button>
                     <button onclick="descriptografar()" id="__button-segundo">Descriptografar</button>
+                
                 </div>
+               
          
         </section>
 
@@ -31,7 +34,7 @@
                     <h3 id="__mensagem2">Digite um texto que você deseja criptografar ou descriptografar.</h3>    
                 </article>
            
-            <button onclick="copy()" id="__button-copy" >copy</button>
+            <button onclick="copiarMensagem()" id="__button-copy" >copy</button>
         </div>
         </aside>
     </main>
