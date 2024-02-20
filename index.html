@@ -14,16 +14,13 @@
     <main class="__estrutura">
         <script src="app.js"></script>
         <section class="__conteudo-principal">
-            <fieldset>
-                <p>
                     <textarea id="__digitar-mensagem"  onkeypress="digitando()" name="tTexto" id="cTexto" cols="100" rows="20" placeholder="Digite sua mensagem"></textarea>
-                </p>
                 <p id="__aviso"><img id="__aviso-imagem" src="/imagens/atention.png" alt="imagem de atenção">Criptografia irá funcionar, apenas letras minúsculas e sem acento.</p>
                 <div class="__button">
                     <button onclick="criptografar()" id="__button-primeiro">Criptografar</button>
                     <button onclick="descriptografar()" id="__button-segundo">Descriptografar</button>
                 </div>
-            </fieldset>
+         
         </section>
 
         <aside class="__painel">
@@ -33,17 +30,18 @@
                     <h2 id="__mensagem1">Nenhuma mensagem encontrada</h2>
                     <h3 id="__mensagem2">Digite um texto que você deseja criptografar ou descriptografar.</h3>    
                 </article>
-            </div>
+           
             <button onclick="copy()" id="__button-copy" >copy</button>
+        </div>
         </aside>
     </main>
 
     <footer class="__rodape">
         <p id="__rodape-texto">Desenvolvido por Lucas Soares</p>
         <nav class="__redes">
-            <a href="https://www.linkedin.com/in/lucas-soares-970ab7180" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
-            <a href="https://github.com/LucasSoares134" ><img src="https://i.pinimg.com/236x/e5/37/82/e537824b0431f1f9a36696e84e64808f.jpg" alt="Lucas-Github" height="30" width="40"></a>
-            <a href="https://www.instagram.com/luucas_soarees?igsh=MWgweWoyYjhxMnV2OA=="><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
+            <a href="https://www.linkedin.com/in/lucas-soares-970ab7180" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"  width="160"></a>
+            <a href="https://github.com/LucasSoares134" ><img src="https://i.pinimg.com/236x/e5/37/82/e537824b0431f1f9a36696e84e64808f.jpg" alt="Lucas-Github" height="50" width="50"></a>
+            <a href="https://www.instagram.com/luucas_soarees?igsh=MWgweWoyYjhxMnV2OA=="><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" width="160"></a>
         </nav>
     </footer>
 </body>

@@ -1,10 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 *{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    
-    
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
 }
 /*
 .-classe
@@ -14,11 +12,12 @@ body{
     height:100vh;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #B4B4B8;
+  
 }
 main{
    
     display: flex;
-    gap: 10%;
+    
         
 }
 .__cabecalho{
@@ -26,7 +25,7 @@ main{
     text-align: center;
     color:#36292C;
     width: 100%;
-    text-align: center;
+    height: 10%;
     
 }
 #__digitar-mensagem{
@@ -36,65 +35,87 @@ main{
     border: none; /* Remove a borda */
     resize: none; /* Impede o redimensionamento */
     outline: none;
-    font-size: 15px;
+    font-size: 0.938rem;
 }
 ::placeholder{
     Color:#0A3871;
-    font-size: 25px;
+    font-size: 1.563rem;
 
 }
 #__mensagem1{
     color: black;
     text-align: center;   
+    width: auto;
+    height: auto;
  
 }
 #__mensagem2{
     color: #495057;
-    text-align: center;    
+    text-align: center;
+    width: auto;
+    height: auto;    
 }
 .__painel{
     background-color: #D8DFE8;
-    margin: 3% 15% 5% 0%;
-    border-radius: 18px;
- }
+    margin: 5% 5% 5% 5%;
+    border-radius: 1.125rem;
+    width: 20%;
+    height: 20%;
+    -webkit-border-radius: 1.125rem;
+    -moz-border-radius: 1.125rem;
+    -ms-border-radius: 1.125rem;
+    -o-border-radius: 1.125rem;
+}
 #__imagem-tux{
     background-color: #D8DFE8;
-    margin-top: 0%;
     position: relative;
     border:#D8DFE8;
-    border-width: 100px;
-    border-radius: 18px;
-    
+    border: none;
+    border-width: 6.25rem;
+    border-radius: 1.125rem;
+    width: 50%;
+    height: 50%;
+    padding: 5% 25% 5% 25%;
+    -webkit-border-radius: 1.125rem;
+    -moz-border-radius: 1.125rem;
+    -ms-border-radius: 1.125rem;
+    -o-border-radius: 1.125rem;
+    justify-content: center;
+    border-radius: 1.125rem;
 }
 #__aviso{
-    margin: 0% 0% 0% 15%;
+    margin: 0% 0% 0% 5%;
 position: relative;
 display: flex;
 gap: 1%;
     }
 #__aviso-imagem{
-    margin: 0% 0% 0% 10%;
-    width: 3%;
+margin: 0% 0% 0% 10%;
+   width: 4%;
+   height: 4%;
 }
 #__button-copy{
     font-family:'Inter', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     align-items: center;
     background-color: lawngreen;
     color: black;
-    padding: 2%;
-    width: 15%;
-    height: 7%;
-    border-radius: 18px;
+    width: auto;
+    height: auto;
+    border-radius: 1.125rem;
     position: relative;
-    margin:0% 0% 0% 40% ;
- 
+    margin-left: 42%;
+    padding: 3%;
+    -webkit-border-radius: 1.125rem;
+    -moz-border-radius: 1.125rem;
+    -ms-border-radius: 1.125rem;
+    -o-border-radius: 1.125rem;
 }
 
 .__button{
 font-family:'Inter', sans-serif;
-font-size: 16px;
-margin: 2% 0% 5% 15%;
+font-size: 1rem;
+margin: 1% 0% 5% 15%;
 display: flex;
 gap:10%;
 
@@ -107,28 +128,37 @@ gap:10%;
     padding: 2%;
     width: 50%;
     height: 50%;
-    border-radius: 18px;
-
-
-
+    border-radius: 1.125rem;
+    -webkit-border-radius: 1.125rem;
+    -moz-border-radius: 1.125rem;
+    -ms-border-radius: 1.125rem;
+    -o-border-radius: 1.125rem;
 }
 #__button-segundo{
     background-color: #D8DFE8;
     padding: 2%;
     width: 50%;
     height: 50%;
-    border-radius: 18px;
- 
-
+    border-radius: 1.125rem;
+    -webkit-border-radius: 1.125rem;
+    -moz-border-radius: 1.125rem;
+    -ms-border-radius: 1.125rem;
+    -o-border-radius: 1.125rem;
 }
 .__rodape{
     background-color:#D8DFE8;
     display: block;
     gap: 10%;
     text-align: center;
-    width: auto;    
+    width: 100%;
+    height: 35%;
 }
 #__rodape-texto{
     color:#0A3871;
     font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+}
+.__redes{
+    margin-top: 0.5%;
+    width: auto;
 }

@@ -9,7 +9,7 @@ function digitando() {
 
 function criptografar() {
     document.getElementById("__imagem-tux").src = imagemAtual;
-    imagemAtual = "imagens/joinha.jfif";
+    imagemAtual = "imagens/among us.jpg";
     let mensagemDigitada = document.getElementById('__digitar-mensagem').value;
     digitando();
     //-------------------------------------------------------------------------
@@ -26,7 +26,7 @@ function criptografar() {
 
 function descriptografar() {
     document.getElementById("__imagem-tux").src = imagemAtual;
-    imagemAtual = "imagens/joinha.jfif";
+    imagemAtual = "imagens/among us2.jpg";
     let mensagemDigitada = document.getElementById('__digitar-mensagem').value;
     digitando();
      //-------------------------------------------------------------------------
