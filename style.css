@@ -35,12 +35,12 @@ main{
     color:#36292C;
     width: 100%;
     height: 5%;
-    padding: 2%;
+    padding: 1%;
     text-shadow: 0.125rem 0.125rem 0.25rem var(--cor-sombreamento);
 }
 
 #__digitar-mensagem{
-    margin: 5% 0% 5% 5%;
+    margin: 5% 2% 0% 5%;
     color:var(--cor-azul-escuro);
     background-color: var(--cor-primaria);
     border: none; /* Remove a borda */
@@ -89,6 +89,29 @@ main{
     justify-content: center;
    
 }
+@media (max-width: 768px ){/*Talet 768x1174*/
+.__imagem-tux{
+    width: 30%;    
+    left: 30%;
+    flex-direction: column-reverse;
+}
+}
+
+@media (max-width: 375px){/*celular 375x993*/
+.__imagem-tux{
+    width: 30%;
+    left: 30%;
+    flex-direction: column-reverse;
+    
+}
+
+
+}
+
+
+
+
+
 #__aviso{
     margin: 0% 0% 0% 0%;
 position: relative;
@@ -138,7 +161,7 @@ transition: 1s;
 .__button{
 font-family:'Inter', sans-serif;
 font-size: 1rem;
-margin: 1% 0% 5% 15%;
+margin: 0% 0% 5% 15%;
 display: flex;
 gap:5%;
 
