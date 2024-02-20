@@ -4,6 +4,14 @@
     padding: 0%;
     border: 0%;
 }
+:root{
+    --cor-primaria:#B4B4B8;
+    --cor-secundária:var(#D8DFE8);
+    --cor-sombreamento:rgba(0, 0, 0, 0.5);
+    --cor-fonte:var(black);
+     }
+    
+
 /*
 .-classe
 #-id
@@ -11,7 +19,7 @@
 body{
     height:100vh;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #B4B4B8;
+    background-color: var(--cor-primaria);
     align-items: center;
     justify-content: center;
   
@@ -24,20 +32,20 @@ main{
 }
 
 .__cabecalho{
-    background-color:#D8DFE8;
+    background-color:var(--cor-secundária);
     text-align: center;
     color:#36292C;
     width: 100%;
     height: 5%;
     padding: 2%;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px var(--cor-sombreamento);
     
 }
 
 #__digitar-mensagem{
     margin: 5% 0% 5% 5%;
     color:#0A3871;
-    background-color:  #B4B4B8;
+    background-color: var(--cor-primaria);
     border: none; /* Remove a borda */
     resize: none; /* Impede o redimensionamento */
     outline: none;
@@ -47,15 +55,15 @@ main{
     Color:#0A3871;
     font-size: 1.563rem;
     font-weight: bold;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px var();
 
 }
 #__mensagem1{
-    color: black;
+    color: var(var(--cor-fonte));
     text-align: center;   
     width: auto;
     height: auto;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px var();
  
 }
 #__mensagem2{
@@ -65,7 +73,7 @@ main{
     height: auto;    
 }
 .__painel{
-    background-color: #D8DFE8;
+    background-color: var(--cor-secundária);
     margin: 5% 5% 5% 5%;
     border-radius: 1.125rem;
     width: 20%;
@@ -73,9 +81,9 @@ main{
  
 }
 #__imagem-tux{
-    background-color: #D8DFE8;
+    background-color: var(--cor-secundária);
     position: relative;
-    border:#D8DFE8;
+    border:var(--cor-secundária);
     border: none;
     border-width: 6.25rem;
     border-radius: 1.125rem;
@@ -113,7 +121,7 @@ margin: 0% 0% 0% 10%;
     font-size: 1rem;
     align-items: center;
     background-color: lawngreen;
-    color: black;
+    color: var(var(--cor-fonte));
     width: auto;
     height: auto;
     border-radius: 1.125rem;
@@ -123,7 +131,7 @@ margin: 0% 0% 0% 10%;
     align-items: center;
     cursor: pointer;
     justify-content: space-between;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px var();
 }
 #__button-copy:hover {
     background-color: #ec8de8;
@@ -149,7 +157,7 @@ gap:5%;
     height: 50%;
     border-radius: 1.125rem;
     cursor: pointer;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px var();
    
 }
 #__button-primeiro:hover {
@@ -157,20 +165,20 @@ gap:5%;
 transition: 2s;  
 }
 #__button-segundo{
-    background-color: #D8DFE8;
+    background-color: var(--cor-secundária);
     padding: 2%;
     width: 50%;
     height: 50%;
     border-radius: 1.125rem;
-    color:black;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color:var(--cor-fonte);
+    text-shadow: 2px 2px 4px var();
     cursor: pointer;
 }
 #__button-segundo:hover {
     background-color: rgba(255, 70, 70, 0.801);
 transition: 2s;  }
 .__rodape{
-    background-color:#D8DFE8;
+    background-color:var(--cor-secundária);
     display: block;
     gap: 10%;
     text-align: center;
@@ -182,7 +190,7 @@ transition: 2s;  }
     font-family: Arial, Helvetica, sans-serif;
     width: auto;
     padding: 1%;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px var();
 }
 .__redes{
 
