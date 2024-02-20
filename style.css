@@ -120,6 +120,11 @@ margin: 0% 0% 0% 10%;
     justify-content: space-between;
 
 }
+#__button-copy:hover {
+    background-color: #ec8de8;
+transition: 1s;  
+}
+  
 
 .__button{
 font-family:'Inter', sans-serif;
@@ -140,6 +145,10 @@ gap:5%;
     border-radius: 1.125rem;
    
 }
+#__button-primeiro:hover {
+    background-color: rgb(148, 247, 209);
+transition: 2s;  
+}
 #__button-segundo{
     background-color: #D8DFE8;
     padding: 2%;
@@ -148,6 +157,9 @@ gap:5%;
     border-radius: 1.125rem;
     color:black;
 }
+#__button-segundo:hover {
+    background-color: rgba(255, 70, 70, 0.801);
+transition: 2s;  }
 .__rodape{
     background-color:#D8DFE8;
     display: block;
