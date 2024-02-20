@@ -26,11 +26,8 @@ body{
   
 }
 main{
-   
     display: flex;
-    
-        
-}
+    }
 
 .__cabecalho{
     background-color:var(--cor-secundária);
@@ -39,8 +36,7 @@ main{
     width: 100%;
     height: 5%;
     padding: 2%;
-    text-shadow: 2px 2px 4px var(--cor-sombreamento);
-    
+    text-shadow: 0.125rem 0.125rem 0.25rem var(--cor-sombreamento);
 }
 
 #__digitar-mensagem{
@@ -48,7 +44,7 @@ main{
     color:var(--cor-azul-escuro);
     background-color: var(--cor-primaria);
     border: none; /* Remove a borda */
-    resize: none; /* Impede o redimensionamento */
+    resize: none; /* Impede o redimensionamento, vindo do textarea */
     outline: none;
     font-size: 0.938rem;
 }
@@ -56,7 +52,7 @@ main{
     Color:var(--cor-azul-escuro);
     font-size: 1.563rem;
     font-weight: bold;
-    text-shadow: 2px 2px 4px var(--cor-sombreamento);
+    text-shadow: 0.125rem 0.125rem 0.25rem var(--cor-sombreamento);
 
 }
 #__mensagem1{
@@ -64,7 +60,7 @@ main{
     text-align: center;   
     width: auto;
     height: auto;
-    text-shadow: 2px 2px 4px var(--cor-sombreamento);
+    text-shadow: 0.125rem 0.125rem 0.25rem var(--cor-sombreamento);
  
 }
 #__mensagem2{
@@ -85,7 +81,6 @@ main{
     background-color: var(--cor-secundária);
     position: relative;
     border:var(--cor-secundária);
-    border: none;
     border-width: 6.25rem;
     border-radius: 1.125rem;
     width: 50%;
@@ -132,7 +127,7 @@ margin: 0% 0% 0% 10%;
     align-items: center;
     cursor: pointer;
     justify-content: space-between;
-    text-shadow: 2px 2px 4px var(--cor-sombreamento);
+    text-shadow: 0.125rem 0.125rem 0.25rem var(--cor-sombreamento);
 }
 #__button-copy:hover {
     background-color: #ec8de8;
@@ -158,7 +153,7 @@ gap:5%;
     height: 50%;
     border-radius: 1.125rem;
     cursor: pointer;
-    text-shadow: 2px 2px 4px var(--cor-sombreamento);
+    text-shadow: 0.125rem 0.125rem 0.25rem var(--cor-sombreamento);
    
 }
 #__button-primeiro:hover {
@@ -172,7 +167,7 @@ transition: 2s;
     height: 50%;
     border-radius: 1.125rem;
     color:var(--cor-fonte);
-    text-shadow: 2px 2px 4px var(--cor-sombreamento);
+    text-shadow: 0.125rem 0.125rem 0.25rem var(--cor-sombreamento);
     cursor: pointer;
 }
 #__button-segundo:hover {
@@ -191,7 +186,7 @@ transition: 2s;  }
     font-family: Arial, Helvetica, sans-serif;
     width: auto;
     padding: 1%;
-    text-shadow: 2px 2px 4px var(--cor-sombreamento);
+    text-shadow: 0.125rem 0.125rem 0.25rem var(--cor-sombreamento);
 }
 .__redes{
 
