@@ -194,11 +194,44 @@ transition: 2s;  }
 
 
 @media (max-width: 767px) {/*Tablet*/
-
+    
+.__cabecalho{
+    width: auto;
+    height: auto;
+    font-size: 10px;
+    align-items: none;
 }
+main{
+   flex-direction: column-reverse;
+}
+.__painel{
+margin: 1% 25% 0% 25%;  
+    width: 40%;
+    height: 10%;
+ 
+}
+}
+
+
 @media (max-width: 375px) {/*celular*/
+    
+    .__cabecalho{
+        width: auto;
+        height: auto;
+        font-size: 10px;
+        align-items: none;
+    }
+    main{
+       flex-direction: column-reverse;
+    }
+    .__painel{
+    margin: 1% 25% 0% 25%;  
+        width: 40%;
+        height: 10%;
+     
+    }
+    }
 
-}
 
 
 
