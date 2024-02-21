@@ -22,7 +22,7 @@ function criptografar() {//acionada, quando clica o button...
     document.getElementById("__mensagem1").innerHTML = mensagemDigitada;/*passa o valor armazenado na variável.*/
     document.getElementById("__mensagem2").innerHTML = '';/*altera o valor da string para vazia*/
    
-
+}
 function descriptografar() {
     document.getElementById("__imagem-tux").src = imagemAtual;
     imagemAtual = "imagens/joinha.jfif";
@@ -43,4 +43,5 @@ function copiarMensagem() {
 //cria uma variável, que armazena o valor da primeira mensagem.
     // Utilizando navigator.clipboard.writeText() para copiar o texto
     navigator.clipboard.writeText(mensagemCopiar);
+}
 }
