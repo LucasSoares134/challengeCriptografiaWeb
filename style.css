@@ -193,7 +193,7 @@ transition: 2s;  }
 
 
 
-@media (max-width: 767px) {/*Tablet*/
+@media (max-width: 800px) {/*Tablet*/
     
 .__cabecalho{
     width: auto;
@@ -202,18 +202,44 @@ transition: 2s;  }
     align-items: none;
 }
 main{
-   flex-direction: column-reverse;
+   flex-direction: column;
 }
+
+#__digitar-mensagem{
+    width: 100%; /* Define a largura máxima como 100% */
+    max-width: 700px; /* Define a largura máxima em pixels, ajuste conforme necessário */
+height: 100%;
+max-height: 250px;
+}
+
+
 .__painel{
-margin: 1% 25% 0% 25%;  
-    width: 40%;
-    height: 10%;
- 
+margin: 2% 25% 8% 25%;  
+    width: 50%;
+    height: 50%;
+
+}
+#__aviso-imagem{
+    margin: 0% 0% 0% 2%;
+}
+#__home-imagem{
+    margin:0%;
+}
+.__button{
+    margin: 0%;
+    margin: 0% 0% 0% 20%;
+}
+#__button-primeiro{
+width: 35%;
+}
+#__button-segundo{
+    width: 35%;
 }
 }
 
 
-@media (max-width: 375px) {/*celular*/
+
+@media (max-width: 400px) {/*celular*/
     
     .__cabecalho{
         width: auto;
