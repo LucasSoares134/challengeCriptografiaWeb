@@ -3,8 +3,8 @@ let imagemAtual = ""; /* Cria a variável imagemAtual e já inicia com o valor d
 function digitando() {//Função,acionada, ao começar a digitar...
     document.getElementById("__imagem-tux").src = imagemAtual;
     imagemAtual = "imagens/processando.jfif";/*quando a Função for chamada,altera a imagem,para o novo src.*/
-    document.getElementById("__mensagem1").innerHTML = 'Texto sendo processado...';
-    document.getElementById("__mensagem2").innerHTML = 'Aguarde!';
+    document.getElementById("__mensagem1").innerHTML = 'Texto em processo...';
+    document.getElementById("__mensagem2").innerHTML = 'Selecione uma das opções!';
 }//altera os textos, ao acionar a Função.
 
 function criptografar() {//acionada, quando clica o button...
